@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  background-image: url(../static/t3XjN5hV.jpg);
+  height: 100vh;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.menu {
+  padding: 0px;
+  margin: 5px;
+  margin-left: 0px;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+/* <a class="login" href="/login">LOGIN</a> */
+.login {
+  padding-top: 20px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 38px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main {
+  text-align: center;
+  min-height: calc(100vh - 270px);
+}
+
+.promo {
+  padding-top: 10%;
+  font-size: 40px;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+/* for button login */
+
+  text-align: center;
+  padding: 40px 0 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 100%;
+  width: 10px;
+  height: 10px;
+  background: #0e1532;
+  border-radius: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: .3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: #0e1532;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+}
+.submenu a:hover {background: #0e1532;}
+
+/*for_login_button*/
+nav {
+  text-align: center;
+  padding: 40px 0 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 100%;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: .3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: #0d1533;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+  background: white;
+}
+.submenu a {
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .2s linear;
+}
+.submenu a:hover {background: #e8e8e8;}
+
+/*join us buttons*/
+.button-join-us{
+   	margin: 35px 20px;
+    padding: 0 15px 0 30px;
+    width: 160px;
+	  height: 44px;
+    background-image: url(../static/fb_dd59401afa8bd0d9e901.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: none;
+    border-radius: 5px;
+	color: #ffffff;
+	font-size: 1.0em;
+	font-family: arial black, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.email__button[_ngcontent-gosu-app-c128] {
+    width: 120px;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid #0062ff;
+    color: #0062ff;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .3s ease,color .3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
